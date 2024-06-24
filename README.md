@@ -1,7 +1,11 @@
 # GetHub-Fetch-Repositories-API
+
 display GitHub repositories for a given user
 
-# This project is a simple, yet powerful web application designed to fetch and display GitHub repositories for a given user. It utilizes the GitHub API to retrieve repository information and presents it in a user-friendly interface
+---
+
+This project is a simple, yet powerful web application designed to fetch and display GitHub repositories for a given user. It
+utilizes the GitHub API to retrieve repository information and presents it in a user-friendly interface
 
 ## Features
 
