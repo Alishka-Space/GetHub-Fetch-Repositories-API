@@ -1,6 +1,6 @@
 # GetHub-Fetch-Repositories-API
 
-display GitHub repositories for a given user
+Display GitHub Repositories For a Given User
 
 ---
 
