@@ -1,0 +1,128 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Roboto', sans-serif;
+    background-color: #32383d;
+    
+}
+
+.repos-container{
+    width: 60%;
+    background-color:  #31292f;
+    margin: auto;
+    color: #fff;
+}
+
+.get-repos{
+    padding: 17px;
+    display: flex;
+    background-color: #EEE;
+    
+}
+
+
+
+.input{
+    width: 100%;
+    padding: 10px 20px;
+    border: 3px solid #261c2a;
+    font-size:20px;
+    height: 54px;
+    background-color: #292c31;
+    color: #fff;
+    border-radius: 10px;
+}
+
+.input:focus{
+    outline: 2px solid #5b3067;
+}
+
+.get-button{
+    background-color: #392e3c;
+    border: 2px solid #18121a;
+    color: #fff;
+    width: 20%;
+    margin-left: 3px;
+    height: 54px;
+    /* font-weight: bold; */
+    font-size: 1em;
+    cursor: pointer;
+    line-height: 54px;
+    text-align: center;
+    border-radius: 10px;
+    
+
+}
+
+.get-button:hover{
+    background: #5b3067;
+}
+
+.show-data{
+    padding: 20px;
+    background-color:  #292c31;
+  
+    
+}
+
+.repo-box{
+    background-color: #32383d;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 0 0 5px white;
+    font-family: 'Times New Roman', Times, serif;
+   
+
+
+}
+
+.repo-box:not(:last-child){
+    margin-bottom: 10px;
+}
+
+.anchor ,.stars{
+    border-radius: 8px;
+    color: #cecb94;
+    padding: 3px;
+    margin-left: 10px;
+    float: right;
+    font-size: 1em;
+    width: 15%;
+    line-height: 18px;
+    text-align: center;
+    
+}
+.anchor{
+    background: #79a3ac;
+    transition: 0.4s;
+    text-decoration: none;
+}
+
+.anchor:hover{
+    transform: scale(1.1);
+    background: transparent;
+    border: black 1px solid;
+    text-decoration: underline #d63147;
+    
+   
+}
+
+.stars{
+    background-color: #009688;
+}
+
+
+@media (max-width: 900px) {
+    .input {
+        font-size: 16px; /* Smaller font size for small screens */
+    }
+
+    .get-button, .anchor, .stars {
+        font-size: 0.7em; /* Adjust font size for buttons and links */
+    }
+
+    body {
+        font-size: 14px; /* Adjust the base font size for the body */
+    }
+}
