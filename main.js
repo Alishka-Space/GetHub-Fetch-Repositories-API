@@ -1,7 +1,7 @@
 let container = document.createElement('div');
     container.className = 'repos-container';
     document.body.appendChild(container);
-   //1
+   //
 let repos = document.createElement('div');
     repos.className = 'get-repos';
     container.appendChild(repos);  
@@ -16,7 +16,7 @@ let span = document.createElement('span');
     span.textContent = 'Get Repos';
     repos.appendChild(span);  
     
-    //2
+    //
 let showRepos = document.createElement('div');
     showRepos.className = 'show-data';
 
@@ -46,10 +46,10 @@ async function getRepos(){
     } else {
         try{
 
-            const response = await fetch(`https://api.github.com/users/${theInput.value}/repos`) // Await for fetch to complete
-            const repositories = await response.json(); // Await for response conversion to JSON
+            const response = await fetch(`https://api.github.com/users/${theInput.value}/repos`) 
+            const repositories = await response.json(); 
             
-            reposData.innerHTML = ''; // Clear the previous data
+            reposData.innerHTML = ''; 
 
             repositories.forEach(repo =>{
 
